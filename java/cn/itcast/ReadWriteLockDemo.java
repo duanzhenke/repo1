@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-class MyCache {
+ class MyCache {
     private volatile Map<String, Object> map = new HashMap();
 
     //读写锁
