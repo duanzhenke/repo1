@@ -25,6 +25,7 @@ public enum CountEnumDemo {
     public void setName(String name) {
         this.name = name;
     }
+
     public static  CountEnumDemo forEach(int index){
         CountEnumDemo[] values = CountEnumDemo.values();
         for (CountEnumDemo value : values) {
